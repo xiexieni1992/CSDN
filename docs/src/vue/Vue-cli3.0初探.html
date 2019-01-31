@@ -1,0 +1,660 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Vue-cli3.0初探 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    博客分类
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" >
+            
+                <span>
+            
+                    
+                    微信小程序
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" >
+            
+                <span>
+            
+                    
+                    Canvas绘制图片，并保存到相册
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" >
+            
+                <span>
+            
+                    
+                    微信公众号
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" >
+            
+                <span>
+            
+                    
+                    支付宝小程序
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" >
+            
+                <span>
+            
+                    
+                    支付宝生活号
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" >
+            
+                <span>
+            
+                    
+                    Vue相关
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.5.1" data-path="Vue-cli3.0初探.html">
+            
+                <a href="Vue-cli3.0初探.html">
+            
+                    
+                    Vue-cli3.0初探
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" >
+            
+                <span>
+            
+                    
+                    React相关
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" >
+            
+                <span>
+            
+                    
+                    Bugger记录
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" >
+            
+                <span>
+            
+                    
+                    Javascript相关
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" >
+            
+                <span>
+            
+                    
+                    Css相关
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" >
+            
+                <span>
+            
+                    
+                    工具类
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.10.1" data-path="../tools/git.html">
+            
+                <a href="../tools/git.html">
+            
+                    
+                    Git常用命令行
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10.2" data-path="../tools/gitbook.html">
+            
+                <a href="../tools/gitbook.html">
+            
+                    
+                    GitBook+Github+Typora 托管GitBook文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10.3" data-path="../tools/npm.html">
+            
+                <a href="../tools/npm.html">
+            
+                    
+                    升级node与npm
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    后记
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Vue-cli3.0初探</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h4 id="&#x524D;&#x8A00;">&#x524D;&#x8A00;</h4>
+<p>vue&#x811A;&#x624B;&#x67B6;&#x7684;3.x&#x7248;&#x672C;&#x5DF2;&#x7ECF;&#x5728;&#x5F00;&#x53D1;&#x4E2D;&#xFF0C;&#x73B0;&#x5728;&#x8FD8;&#x5904;&#x4E8E;alpha&#x7248;&#x672C;&#x3002;&#x4EE5;&#x4E0B;&#x662F;&#x4E0A;&#x624B;&#x8BB0;&#x5F55;&#xFF0C;&#x65B9;&#x4FBF;&#x4EE5;&#x540E;&#x67E5;&#x627E;&#x3002;</p>
+<h4 id="&#x5F00;&#x59CB;">&#x5F00;&#x59CB;</h4>
+<h5 id="1&#x3001;&#x73AF;&#x5883;&#x5B89;&#x88C5;">1&#x3001;&#x73AF;&#x5883;&#x5B89;&#x88C5;</h5>
+<pre><code>npm install -g @vue/cli
+</code></pre><h5 id="2&#x3001;&#x521B;&#x5EFA;&#x547D;&#x4EE4;">2&#x3001;&#x521B;&#x5EFA;&#x547D;&#x4EE4;</h5>
+<pre><code>vue create &lt;project-name&gt;
+</code></pre><h5 id="3&#x3001;&#x914D;&#x7F6E;&#x73AF;&#x5883;&#x53D8;&#x91CF;">3&#x3001;&#x914D;&#x7F6E;&#x73AF;&#x5883;&#x53D8;&#x91CF;</h5>
+<pre><code>VUE_APP_API_ROOT = &apos;https://XXX&apos;
+VUE_APP_CURRENTMODE = &apos;production&apos;
+</code></pre><p>&#x91C7;&#x5751;&#xFF1A;&#x76F8;&#x8F83;&#x4E8E;vue-cli2.x,&#x53EF;&#x80FD;&#x6709;&#x91C7;&#x7528;&#x5982;&#x4E0B;&#x914D;&#x7F6E;&#x65B9;&#x5F0F;&#xFF0C;&#x6765;&#x533A;&#x5206;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x3001;&#x6D4B;&#x8BD5;&#x73AF;&#x5883;&#x548C;&#x6B63;&#x5F0F;&#x73AF;&#x5883;&#x7684;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#xFF1A;</p>
+<pre><code>// &#x5F00;&#x53D1;&#x73AF;&#x5883; development
+// config/dev.env.js
+module.exports = merge(prodEnv, {
+  NODE_ENV: &apos;&quot;development&quot;&apos;,
+  API_ROOT: &apos;&quot;localhost:xxxx&quot;&apos;&#xFF0C;
+  ...
+}&#xFF09;
+// &#x6D4B;&#x8BD5;&#x73AF;&#x5883; test
+// config/test.env.js
+module.exports = merge(prodEnv, {
+  NODE_ENV: &apos;&quot;test&quot;&apos;,
+  API_ROOT: &apos;&quot;https://test.example.net&quot;&apos;,
+  ...
+}&#xFF09;
+// &#x6B63;&#x5F0F;&#x73AF;&#x5883; production
+// config/dev.env.js
+module.exports = merge(prodEnv, {
+  NODE_ENV: &apos;&quot;test&quot;&apos;,
+  API_ROOT: &apos;&quot;https://example.net&quot;&apos;,
+  ...
+}&#xFF09;
+</code></pre><p>&#x6253;&#x5305;&#x65F6;&#xFF0C;&#x8FD0;&#x884C;&#x4E0D;&#x540C;&#x7684;&#x6253;&#x5305;&#x547D;&#x4EE4;&#x5373;&#x53EF;.</p>
+<p>&#x4F46;&#x662F;&#xFF0C;&#x518D;vue-cli3.0&#x4E2D;&#xFF0C;&#x5B98;&#x65B9;&#x811A;&#x624B;&#x67B6;&#x53EA;&#x652F;&#x6301;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x548C;&#x6B63;&#x5F0F;&#x73AF;&#x5883;&#xFF0C;&#x8981;&#x5B9E;&#x73B0;&#x6D4B;&#x8BD5;&#x73AF;&#x5883;&#x6253;&#x5305;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x501F;&#x52A9;&#x6A21;&#x5F0F;mode&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x5C06;&#x6253;&#x5305;&#x547D;&#x4EE4;&#x7A0D;&#x4F5C;&#x4FEE;&#x6539;&#xFF1A;</p>
+<pre><code>&quot;scripts&quot;: {
+    &quot;dev&quot;: &quot;vue-cli-service serve&quot;,
+    &quot;test&quot;: &quot;vue-cli-service build --mode test&quot;,
+    &quot;build&quot;: &quot;vue-cli-service build&quot;  
+  }
+</code></pre><p>&#x914D;&#x7F6E;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#xFF1A;</p>
+<pre><code>// &#x5F00;&#x53D1;&#x73AF;&#x5883; development
+// .env.development
+NODE_ENV = &apos;development&apos;
+VUE_APP_CURRENTMODE = &apos;development&apos;
+VUE_APP_API_ROOT = &apos;localhost:xxxx&apos;
+...
+
+// &#x6D4B;&#x8BD5;&#x73AF;&#x5883; test
+// .env.test
+NODE_ENV = production
+VUE_APP_CURRENTMODE = &apos;test&apos;
+VUE_APP_API_ROOT = &apos;https://test.example.net&apos;
+...
+
+// &#x6B63;&#x5F0F;&#x73AF;&#x5883; production
+// .env.production
+NODE_ENV = production
+VUE_APP_CURRENTMODE = &apos;production&apos;
+VUE_APP_API_ROOT = &apos;https://example.net&apos;
+...
+</code></pre><h5 id="4&#x3001;&#x914D;&#x7F6E;vueconfigjson">4&#x3001;&#x914D;&#x7F6E;vue.config.json</h5>
+<pre><code>/**
+ *    vue.config.js &#x914D;&#x7F6E;&#x8BF4;&#x660E;
+ *  &#x8FD9;&#x91CC;&#x53EA;&#x5217;&#x4E00;&#x90E8;&#x5206;&#xFF0C;&#x5177;&#x4F53;&#x914D;&#x7F6E;&#x60E8;&#x8003;&#x6587;&#x6863;&#x554A;
+ */
+
+module.exports = {
+  baseUrl: process.env.NODE_ENV === &apos;production&apos; ? &apos;/online/&apos; : &apos;/&apos;,
+
+  /* outputDir: &#x5728;npm run build&#x65F6; &#x751F;&#x6210;&#x6587;&#x4EF6;&#x7684;&#x76EE;&#x5F55; type:string, default:&apos;dist&apos; */
+  outputDir: &apos;dist&apos;,
+
+  /* lintOnSave&#xFF1A;{ type:Boolean default:true } &#x95EE;&#x4F60;&#x662F;&#x5426;&#x4F7F;&#x7528;eslint */
+  lintOnSave: true,
+
+  /**
+   * productionSourceMap&#xFF1A;{ type:Bollean,default:true } &#x751F;&#x4EA7;&#x6E90;&#x6620;&#x5C04;
+   * &#x5982;&#x679C;&#x60A8;&#x4E0D;&#x9700;&#x8981;&#x751F;&#x4EA7;&#x65F6;&#x7684;&#x6E90;&#x6620;&#x5C04;&#xFF0C;&#x90A3;&#x4E48;&#x5C06;&#x6B64;&#x8BBE;&#x7F6E;&#x4E3A;false&#x53EF;&#x4EE5;&#x52A0;&#x901F;&#x751F;&#x4EA7;&#x6784;&#x5EFA; 
+   */
+  productionSourceMap: false,
+
+  /**
+   * devServer:{type:Object} 3&#x4E2A;&#x5C5E;&#x6027;host,port,https 
+   * &#x5B83;&#x652F;&#x6301;webPack-dev-server&#x7684;&#x6240;&#x6709;&#x9009;&#x9879; 
+   */
+
+  devServer: {
+    port: 8085,
+    host: &apos;localhost&apos;,
+    https: false, // https:{type:Boolean}
+    open: true, //&#x914D;&#x7F6E;&#x81EA;&#x52A8;&#x542F;&#x52A8;&#x6D4F;&#x89C8;&#x5668;
+    // proxy: &apos;http://localhost:4000&apos; // &#x914D;&#x7F6E;&#x8DE8;&#x57DF;&#x5904;&#x7406;,&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x4EE3;&#x7406;
+    proxy: {
+      &apos;/api&apos;: {
+        target: &apos;&lt;url&gt;&apos;,
+        ws: true,
+        changeOrigin: true
+      },
+      &apos;/foo&apos;: {
+        target: &apos;&lt;other_url&gt;&apos;
+      }
+    },  // &#x914D;&#x7F6E;&#x591A;&#x4E2A;&#x4EE3;&#x7406;
+  },
+
+  /** 
+   * @vue/cli  &#x5185;&#x90E8;&#x7684;webpack &#x914D;&#x7F6E;&#x662F;&#x901A;&#x8FC7; webpack-chain &#x7EF4;&#x62A4;&#x7684;
+   * &#x6B64;&#x5904;&#x4EE5;&#x5B9E;&#x9645;&#x9879;&#x76EE;&#x4E2D;&#x7528;&#x5230;&#x7684;svg&#xFF08;&#x57FA;&#x4E8E;svg-sprite-loader&#xFF09;&#x914D;&#x7F6E;&#x4E3A;&#x4F8B;
+   */
+
+  chainWebpack: config =&gt; {
+    // &#x4E00;&#x4E2A;&#x89C4;&#x5219;&#x91CC;&#x7684; &#x57FA;&#x7840;Loader
+    // svg&#x662F;&#x4E2A;&#x57FA;&#x7840;loader
+    const svgRule = config.module.rule(&apos;svg&apos;)
+
+    // &#x6E05;&#x9664;&#x5DF2;&#x6709;&#x7684;&#x6240;&#x6709; loader&#x3002;
+    // &#x5982;&#x679C;&#x4F60;&#x4E0D;&#x8FD9;&#x6837;&#x505A;&#xFF0C;&#x63A5;&#x4E0B;&#x6765;&#x7684; loader &#x4F1A;&#x9644;&#x52A0;&#x5728;&#x8BE5;&#x89C4;&#x5219;&#x73B0;&#x6709;&#x7684; loader &#x4E4B;&#x540E;&#x3002;
+    svgRule.uses.clear()
+
+    // &#x6DFB;&#x52A0;&#x8981;&#x66FF;&#x6362;&#x7684; loader
+    svgRule
+      .use(&apos;svg-sprite-loader&apos;)
+      .loader(&apos;svg-sprite-loader&apos;)
+      .options({
+        symbolId: &apos;icon-[name]&apos;
+      })
+  }
+}
+</code></pre><h5 id="5&#x3001;&#x914D;&#x7F6E;tsconfigjson">5&#x3001;&#x914D;&#x7F6E;tsconfig.json</h5>
+<pre><code>{
+  &quot;compilerOptions&quot;: {
+    // &#x89E3;&#x6790;&#x975E;&#x76F8;&#x5BF9;&#x6A21;&#x5757;&#x540D;&#x7684;&#x57FA;&#x51C6;&#x76EE;&#x5F55;
+    &quot;baseUrl&quot;: &quot;.&quot;,
+    // &#x7F16;&#x8BD1;&#x8F93;&#x51FA;&#x76EE;&#x6807; ES &#x7248;&#x672C;&#xFF08;es5&#xFF09;
+    &quot;target&quot;: &quot;esnext&quot;,
+    // &#x91C7;&#x7528;&#x7684;&#x6A21;&#x5757;&#x7CFB;&#x7EDF;
+    &quot;module&quot;: &quot;esnext&quot;,
+    // &#x4EE5;&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x89E3;&#x6790;
+    &quot;strict&quot;: true,
+    &quot;jsx&quot;: &quot;preserve&quot;,
+    // &#x4ECE; tslib &#x5BFC;&#x5165;&#x5916;&#x90E8;&#x5E2E;&#x52A9;&#x5E93;: &#x6BD4;&#x5982;__extends&#xFF0C;__rest&#x7B49;
+    &quot;importHelpers&quot;: true,
+    // &#x5982;&#x4F55;&#x5904;&#x7406;&#x6A21;&#x5757;
+    &quot;moduleResolution&quot;: &quot;node&quot;,
+    // &#x542F;&#x7528;&#x88C5;&#x9970;&#x5668;
+    &quot;experimentalDecorators&quot;: true,
+    &quot;esModuleInterop&quot;: true,
+    // &#x542F;&#x7528;&#x8BBE;&#x8BA1;&#x7C7B;&#x578B;&#x5143;&#x6570;&#x636E;&#xFF08;&#x7528;&#x4E8E;&#x53CD;&#x5C04;&#xFF09;
+    &quot;emitDecoratorMetadata&quot;: true,
+    // &#x5728;&#x8868;&#x8FBE;&#x5F0F;&#x548C;&#x58F0;&#x660E;&#x4E0A;&#x6709;&#x9690;&#x542B;&#x7684;any&#x7C7B;&#x578B;&#x65F6;&#x62A5;&#x9519;
+    &quot;noImplicitAny&quot;: false,
+    // &#x4E0D;&#x662F;&#x51FD;&#x6570;&#x7684;&#x6240;&#x6709;&#x8FD4;&#x56DE;&#x8DEF;&#x5F84;&#x90FD;&#x6709;&#x8FD4;&#x56DE;&#x503C;&#x65F6;&#x62A5;&#x9519;&#x3002;
+    &quot;noImplicitReturns&quot;: true,
+    // &#x5141;&#x8BB8;&#x4ECE;&#x6CA1;&#x6709;&#x8BBE;&#x7F6E;&#x9ED8;&#x8BA4;&#x5BFC;&#x51FA;&#x7684;&#x6A21;&#x5757;&#x4E2D;&#x9ED8;&#x8BA4;&#x5BFC;&#x5165;
+    &quot;allowSyntheticDefaultImports&quot;: true,
+    // &#x662F;&#x5426;&#x5305;&#x542B;&#x53EF;&#x4EE5;&#x7528;&#x4E8E; debug &#x7684; sourceMap
+    &quot;sourceMap&quot;: true,
+    // &#x5C06;&#x6BCF;&#x4E2A;&#x6587;&#x4EF6;&#x4F5C;&#x4E3A;&#x5355;&#x72EC;&#x7684;&#x6A21;&#x5757;
+    &quot;isolatedModules&quot;: false,
+    // &#x7F16;&#x8BD1;&#x8FC7;&#x7A0B;&#x4E2D;&#x6253;&#x5370;&#x6587;&#x4EF6;&#x540D;
+    &quot;listFiles&quot;: true,
+    // &#x79FB;&#x9664;&#x6CE8;&#x91CA;
+    &quot;removeComments&quot;: true,
+    // &#x5141;&#x8BB8;&#x7F16;&#x8BD1;javascript&#x6587;&#x4EF6;
+    &quot;allowJs&quot;: true,
+    &quot;types&quot;: [
+      &quot;node&quot;,
+      &quot;mocha&quot;,
+      &quot;chai&quot;
+    ],
+    // &#x6307;&#x5B9A;&#x7279;&#x6B8A;&#x6A21;&#x5757;&#x7684;&#x8DEF;&#x5F84;
+    &quot;paths&quot;: {
+      &quot;@/*&quot;: [
+        &quot;src/*&quot;
+      ]
+    },
+    // &#x7F16;&#x8BD1;&#x8FC7;&#x7A0B;&#x4E2D;&#x9700;&#x8981;&#x5F15;&#x5165;&#x7684;&#x5E93;&#x6587;&#x4EF6;&#x7684;&#x5217;&#x8868;
+    &quot;lib&quot;: [
+      &quot;esnext&quot;,
+      &quot;dom&quot;,
+      &quot;dom.iterable&quot;,
+      &quot;scripthost&quot;
+    ]
+  },
+  // &#x7F16;&#x8BD1;&#x8FC7;&#x7A0B;&#x4E2D;&#x9700;&#x8981;&#x7F16;&#x8BD1;&#x7684;&#x6587;&#x4EF6;
+  &quot;include&quot;: [
+    &quot;src/**/*.ts&quot;,
+    &quot;src/**/*.tsx&quot;,
+    &quot;src/**/*.vue&quot;,
+    &quot;tests/**/*.ts&quot;,
+    &quot;tests/**/*.tsx&quot;
+  ],
+  // &#x7F16;&#x8BD1;&#x8FC7;&#x7A0B;&#x4E2D;&#x9700;&#x8981;&#x6392;&#x9664;&#x7F16;&#x8BD1;&#x7684;&#x6587;&#x4EF6;
+  &quot;exclude&quot;: [
+    &quot;node_modules&quot;
+  ]
+}
+</code></pre><h5 id="&#x7ED3;&#x675F;&#x8BED;">&#x7ED3;&#x675F;&#x8BED;</h5>
+<p>&#x6301;&#x7EED;&#x5173;&#x6CE8;&#x4E2D;&#xFF0C;&#x5982;&#x6709;&#x9519;&#x8BEF;&#xFF0C;&#x6B22;&#x8FCE;&#x6279;&#x8BC4;&#x6307;&#x6B63;~</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Vue-cli3.0初探","level":"1.2.5.1","depth":3,"next":{"title":"React相关","level":"1.2.6","depth":2,"ref":"","articles":[]},"previous":{"title":"Vue相关","level":"1.2.5","depth":2,"ref":"","articles":[{"title":"Vue-cli3.0初探","level":"1.2.5.1","depth":3,"path":"src/vue/Vue-cli3.0初探.md","ref":"src/vue/Vue-cli3.0初探.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"src/vue/Vue-cli3.0初探.md","mtime":"2019-01-31T02:50:26.308Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-31T03:13:23.367Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
