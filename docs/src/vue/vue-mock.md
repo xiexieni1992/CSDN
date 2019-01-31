@@ -164,7 +164,7 @@ json-server --watch --port 8088 db.json --routes routes.json
 
 运行结果：
 
-![result](E:\workspace\GitBook\csdn\src\assets\result.png)
+![result](..\assets\result.png)
 
 访问地址：http://localhost:8011/api/fruit/1 等价于 http://localhost:8011/fruit/1 .依照上图Other routes!!!
 
